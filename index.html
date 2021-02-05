@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HAUS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <!-- <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">WebSiteName</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </nav> -->
+        <div style="text-align:center" id="haus-header">
+            <img
+              src="https://logopond.com/logos/16bfacf1769b2d4021dc61efa35720dd.png",
+              alt="haus-header"
+              width="180" height="150"
+            />
+        </div>
+        <div style="text-align:center">
+            <img src="https://i.pinimg.com/originals/f7/f9/e6/f7f9e66cded7388417df62e52e897c18.jpg"
+            alt=""
+            width="125" height="125">
+          </div>
+      
+          <div class="container">
+            <form style="text-align:center">
+              <label for="name">Agent Name</label><br>
+              <input type="text" id="name" name="name"><br><br>
+              <label for="address">Property Address</label><br>
+              <input type="text" id="address" name="address"><br><br>
+              <select id="status" name="status">
+                <option value="active">Active</option>
+                <option value="sold">Sold</option>
+                <option value="sale-pending">Sale Pending</option>
+              </select>
+              <input type="submit">
+            </form>
+            <h1><img src="https://icons-for-free.com/iconfiles/png/512/home+house+icon-1320087051499461146.png" width="50" height="50">All Listings</h1>
+          </div>
+          <br>
+        <div style="text-align:center" id="listing-collection"></div>
+        <script defer src="src/index.js"></script>
+    </body>
+</html>
